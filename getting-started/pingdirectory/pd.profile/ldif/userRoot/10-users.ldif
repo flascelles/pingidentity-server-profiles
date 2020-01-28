@@ -20,7 +20,7 @@ dn: uid=user.2,ou=people,${USER_BASE_DN}
 objectClass: top
 objectClass: person
 objectClass: uidObject
-sn: Tancordo
+sn: Lascelles
 cn: Sidonia Tancordo
 uid: user.2
 userPassword: 2FederateM0re

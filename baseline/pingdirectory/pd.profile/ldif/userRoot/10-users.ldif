@@ -12,6 +12,34 @@ mail: user.0@example.com
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=user.0
 
+dn: uid=469863216813,ou=People,${USER_BASE_DN}
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: pf-connected-identities
+sn: Bosko
+cn: John Bosko
+givenName: John
+uid: 469863216813
+mail: 469863216813@example.com
+userPassword: 2FederateM0re
+pf-connected-identity: auth-source=pf-local-identity:user-id=469863216813
+
+dn: uid=467745863242,ou=People,${USER_BASE_DN}
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: pf-connected-identities
+sn: Pellegrino
+cn: San Pellegrino
+givenName: San
+uid: 467745863242
+mail: 467745863242@example.com
+userPassword: 2FederateM0re
+pf-connected-identity: auth-source=pf-local-identity:user-id=467745863242
+
 dn: uid=user.1,ou=People,${USER_BASE_DN}
 objectClass: top
 objectClass: person
